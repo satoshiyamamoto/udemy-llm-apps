@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "udemy-llm-apps"
+version = "0.1.0"
+description = ""
+authors = ["Satoshi Yamamoto <satoshi_yamamoto@cyberagent.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "1.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
