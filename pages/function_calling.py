@@ -1,5 +1,6 @@
-import openai
 import json
+
+import openai
 import streamlit as st
 
 

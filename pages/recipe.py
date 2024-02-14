@@ -1,12 +1,13 @@
-import streamlit as st
-import json
-import openai
-from pydantic import BaseModel, Field
 import io
+import json
 import os
-from PIL import Image
-from stability_sdk import client
+
+import openai
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
+import streamlit as st
+from PIL import Image
+from pydantic import BaseModel, Field
+from stability_sdk import client
 
 
 class Ingredient(BaseModel):

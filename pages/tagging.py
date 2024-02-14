@@ -1,7 +1,7 @@
 import streamlit as st
-from pydantic import BaseModel, Field
-from langchain.chat_models import ChatOpenAI
 from langchain.chains import create_tagging_chain_pydantic
+from langchain.chat_models import ChatOpenAI
+from pydantic import BaseModel, Field
 
 
 class Attribute(BaseModel):

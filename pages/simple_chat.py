@@ -1,6 +1,7 @@
 import os
-import streamlit as st
+
 import openai
+import streamlit as st
 
 st.title("Simple Chat")
 
