@@ -7,12 +7,14 @@
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/poetry:2": {
 			"version": "1.5.1"
-		}
+		},
+		"ghcr.io/warrenbuckley/codespace-features/sqlite:latest": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-python.black-formatter"
+				"ms-python.black-formatter",
+				"ms-python.isort"
 			]
 		}
 	}
